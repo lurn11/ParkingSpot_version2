@@ -1,0 +1,56 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.example.laurenvoigt.parkingspot.HomePage">
+
+    <!-- TODO: Update blank fragment layout
+    <TextView
+        android:textSize="18sp"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="Home Page Fragment"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentStart="true" /> -->
+
+    <Button
+        android:id="@+id/button1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Parking Near Me"
+        android:textSize="24sp"
+        android:minHeight="150dip"
+        android:minWidth="150dip"
+        android:paddingLeft="75dip"
+        android:paddingRight="75dip"
+        android:layout_above="@+id/button2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="28dp" />
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Directions to a Spot"
+        android:textSize="24sp"
+        android:minHeight="150dip"
+        android:minWidth="150dip"
+        android:paddingLeft="50dip"
+        android:paddingRight="50dip"
+        android:layout_marginBottom="37dp"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/button1" />
+
+    <ImageView
+        android:id="@+id/logo"
+        android:src="@drawable/parkingspotlogo"
+        android:layout_width="400dp"
+        android:layout_height="400dp"
+        android:paddingBottom="20dp"
+        android:paddingRight="50dp"
+        android:paddingLeft="60dp"
+        android:paddingTop="20dp"
+        android:layout_above="@+id/button1" />
+
+</RelativeLayout>
+
