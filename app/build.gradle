@@ -5,7 +5,8 @@ android {
     buildToolsVersion "25.0.2"
     defaultConfig {
         applicationId "com.example.laurenvoigt.parkingspot"
-        minSdkVersion 21
+        //minSdkVersion 21
+        minSdkVersion 19
         targetSdkVersion 25
         versionCode 1
         versionName "1.0"
@@ -29,5 +30,6 @@ dependencies {
     compile 'com.android.support.constraint:constraint-layout:1.0.2'
     compile 'com.android.support:support-v4:25.3.0'
     compile 'com.google.android.gms:play-services-maps:10.2.4'
+    compile 'com.facebook.android:facebook-android-sdk:4.19.0'
     testCompile 'junit:junit:4.12'
 }
